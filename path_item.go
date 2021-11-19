@@ -30,6 +30,8 @@ type PathItemProps struct {
 	Options    *Operation  `json:"options,omitempty"`
 	Head       *Operation  `json:"head,omitempty"`
 	Patch      *Operation  `json:"patch,omitempty"`
+	Request    *Operation  `json:"request,omitempty"`
+	Message    *Operation  `json:"message,omitempty"`
 	Parameters []Parameter `json:"parameters,omitempty"`
 }
 
