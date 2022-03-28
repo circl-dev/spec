@@ -1,4 +1,4 @@
-module github.com/protodev-site/spec
+module github.com/circl-dev/spec
 
 require (
 	github.com/go-openapi/jsonpointer v0.19.5
